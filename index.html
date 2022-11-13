@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram Feed</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>  
+<body>
+<!-- its best practice to keep everything
+inside one large div -->
+    <div>
+        <header>
+            <div class="feed-container">
+    <!-- you should only have 1 h1 on a website-->
+                <h1>Jessie's Photo Feed</h1>
+            </div>
+        </header>
+        <div class="feed-container">
+            <div class="post">
+                <div class="post-header">
+                    <div class="photo-header">
+                        <h3>Buffy goes for a ride</h3>
+                    </div>
+                    <div class="date">
+                <!-- span doesnt apply any default behavior to your content -->
+                        <span>11/13/2022</span>
+                    </div>
+                </div>
+                <div class="media">
+                <!-- you should close your self-closing tags (will need to 
+                    once you start using react) -->
+                <!-- picsum provides placeholder image-->
+                    <img src="images/buffy.jpeg" alt="cute brown dog smiling"></img>
+                </div>
+                <div class="caption">
+                    <p>This is Buffy, my niece dog. She is super cute and sweet! I was taking her for a ride to grandmas house here.</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <div class="photo-header">
+                        <h3>Hike in ABQ</h3>
+                    </div>
+                    <div class="date">
+                <!-- span doesnt apply any default behavior to your content -->
+                        <span>09/05/2022</span>
+                    </div>
+                </div>
+                <div class="media">
+                <!-- you should close your self-closing tags (will need to 
+                    once you start using react) -->
+                <!-- picsum provides placeholder image - 200x200 is image size -->
+                    <img src="images/hike.jpeg" alt="woman on mountain top"></img>
+                </div>
+                <div class="caption">
+                    <p>For my first wedding anniversary, me and the hubby went to ABQ and rode the tram up the mountain. We hiked around for awhile, which was fun. The views were awesome!</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <div class="photo-header">
+                        <h3>A sleepy moose</h3>
+                    </div>
+                    <div class="date">
+                <!-- span doesnt apply any default behavior to your content -->
+                        <span>08/16/2022</span>
+                    </div>
+                </div>
+                <div class="media">
+                <!-- you should close your self-closing tags (will need to 
+                    once you start using react) -->
+                <!-- picsum provides placeholder image - 200x200 is image size -->
+                    <img src="images/moose.jpeg" alt="fluffy cat curled up"></img>
+                </div>
+                <div class="caption">
+                    <p>This is my kitty Moose. He is somewhat grouchy.. he doesn't ask for love so you have to force it on him. He's very quiet; never meows. He's mostly an outdoor cat but likes to sleep inside in the winter time.</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <div class="photo-header">
+                        <h3>NM sunset</h3>
+                    </div>
+                    <div class="date">
+                <!-- span doesnt apply any default behavior to your content -->
+                        <span>08/04/2022</span>
+                    </div>
+                </div>
+                <div class="media">
+                <!-- you should close your self-closing tags (will need to 
+                    once you start using react) -->
+                <!-- picsum provides placeholder image - 200x200 is image size -->
+                    <img src="images/sunset.jpeg" alt="beautiful sunset"></img>
+                </div>
+                <div class="caption">
+                    <p>This is a gorgeous sunset that I saw the other day! Man, I love New Mexico skies!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body> 
+</html>
